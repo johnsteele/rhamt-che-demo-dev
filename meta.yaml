@@ -1,0 +1,17 @@
+apiVersion: v2
+id: demo.demo-rhamt-vscode-extension
+version: latest
+type: VS Code extension
+name: rhamt-demo
+displayName: Application Migration and Modernization using RHAMT
+title: Application Migration and Modernization using RHAMT
+description: Application Migration and Modernization using RHAMT
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+publisher: demo
+repository: https://github.com/windup/rhamt-vscode-extension
+category: Other
+firstPublicationDate: "2019-06-19"
+spec:
+  URL:
+    - {url_ref}
+
