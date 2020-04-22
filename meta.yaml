@@ -23,7 +23,7 @@ spec:
     attributes:
       protocol: http
   containers:
-    - image: "windup3/rhamt-vscode-extension:java8"
+    - image: "johnsteele/rhamt-vscode-extension:quarkus"
       name: rhamt-extension
       mountSources: true
       ports:
