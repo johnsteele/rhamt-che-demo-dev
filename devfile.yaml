@@ -1,18 +1,18 @@
 apiVersion: 1.0.0
 metadata:
-  name: rhamt-che-demo
+  name: che-rhamt-demo
 
 projects:
 
-  - name: jboss-daytrader
+  - name: quarkus-demo
     source:
-      location: 'https://github.com/johnsteele/jboss-daytrader'
+      location: 'https://github.com/johnsteele/quarkus-demo'
       type: git
 
 components:
 
   - alias: rhamt-demo-plugin
     type: chePlugin
-    reference: {plugin_ref}
+    reference: https://raw.githubusercontent.com/johnsteele/rhamt-che-demo-dev/master/meta.yaml
     memoryLimit: 1500M
     
