@@ -10,9 +10,11 @@ projects:
       type: git
 
 components:
-
   - alias: rhamt-demo-plugin
     type: chePlugin
     reference: https://raw.githubusercontent.com/johnsteele/rhamt-che-demo-dev/master/meta.yaml
     memoryLimit: 1500M
+  - type: cheEditor
+    id: eclipse/che-theia/next
+    registryUrl: https://sunix-che-plugin-registry-dev-c1mf2.surge.sh/v3/
     
