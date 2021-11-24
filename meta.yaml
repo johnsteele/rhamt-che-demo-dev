@@ -7,7 +7,7 @@ title: Application Migration and Modernization using RHAMT
 description: Application Migration and Modernization using RHAMT
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: demo
-repository: https://github.com/windup/rhamt-che-demo
+repository: https://github.com/johnsteele/jakartaee-duke
 category: Other
 firstPublicationDate: "2020-03-02"
 spec:
@@ -33,4 +33,4 @@ spec:
         - name: rhamt-vscode
           mountPath: "/home/theia/mta/redhat.mta-vscode-extension"
   extensions:
-    - https://download.jboss.org/jbosstools/vscode/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.74-175.vsix
+    - https://download.jboss.org/jbosstools/vscode/stable/mta-vscode-extension/mta-vscode-extension-0.0.86-284.vsix
