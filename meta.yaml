@@ -7,7 +7,7 @@ title: Application Migration and Modernization using RHAMT
 description: Application Migration and Modernization using RHAMT
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: demo
-repository: https://github.com/johnsteele/jakartaee-duke
+repository: https://github.com/windup/rhamt-che-demo-dev
 category: Other
 firstPublicationDate: "2020-03-02"
 spec:
