@@ -3,8 +3,8 @@ version: latest
 type: VS Code extension
 name: rhamt-demo
 displayName: Migration Toolkit
-title: Application Migration and Modernization using Windup (MTR)
-description: Application Migration and Modernization using Windup (MTR)
+title: Application Migration and Modernization
+description: Application Migration and Modernization
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: demo
 repository: https://github.com/windup/rhamt-che-demo-dev
@@ -23,7 +23,7 @@ spec:
     attributes:
       protocol: http
   containers:
-    - image: "quay.io/windupeng/mta-vscode-extension:0.0.99"
+    - image: "quay.io/windupeng/mta-vscode-extension:6.0.0.Final"
       name: rhamt-extension
       mountSources: true
       ports:
@@ -33,4 +33,4 @@ spec:
         - name: rhamt-vscode
           mountPath: "/home/theia/mta/redhat.mta-vscode-extension"
   extensions:
-    - https://download.jboss.org/jbosstools/vscode/snapshots/mtr-vscode-extension/mtr-vscode-extension-0.0.99-393.vsix
+    - https://download.jboss.org/jbosstools/vscode/snapshots/mta-vscode-extension/mta-vscode-extension-0.0.99-401.vsix
